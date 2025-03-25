@@ -91,6 +91,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 > **NB:** Dependency has been **added** if just the new version information is present.
 > **NB:** Dependency has been **removed** if version information isn't present.
 
+## [3.0.1] - 2025-03-25
+
+### Enhancements
+
+- Replaced local `sniffles` module with the official `nf-core/sniffles` module for structural variant calling.
+  This improves maintainability and consistency with nf-core module standards.
+
 ## [2.0.1] - 2021-11-29
 
 ### Bug fix
