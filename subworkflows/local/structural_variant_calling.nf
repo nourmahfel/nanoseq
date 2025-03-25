@@ -2,7 +2,7 @@
  * Structural variant calling
  */
 
-include { SNIFFLES                              } from '../../modules/local/sniffles'
+include { SNIFFLES                              } from '../../modules/nf-core/sniffles/main'
 include { BCFTOOLS_SORT as SNIFFLES_SORT_VCF    } from '../../modules/nf-core/bcftools/sort/main'
 include { TABIX_BGZIP as SNIFFLES_BGZIP_VCF     } from '../../modules/nf-core/tabix/bgzip/main'
 include { TABIX_TABIX as SNIFFLES_TABIX_VCF     } from '../../modules/nf-core/tabix/tabix/main'
